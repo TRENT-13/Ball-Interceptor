@@ -1,7 +1,7 @@
 # Video
 [https://youtu.be/28HVs5rGuMo](https://youtu.be/28HVs5rGuMo)
 
-
+This project presents a physics-based simulation and estimation framework for real-time projectile interception using computer vision and numerical ODE solvers. It integrates video-based motion tracking (via edge detection and DBSCAN clustering) with parameter estimation through Newton’s shooting method to infer physical constants such as gravity, drag, and mass. By comparing multiple numerical integration schemes (Euler, RK4, Trapezoidal, and Adams–Bashforth), the system evaluates trajectory prediction accuracy and computes optimal interceptor velocities for dynamic target capture. This approach bridges computer vision, numerical analysis, and control theory for autonomous interception and trajectory modeling.
 Sample output
 ```
 Estimated parameters:
